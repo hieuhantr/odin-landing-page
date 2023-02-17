@@ -1,0 +1,166 @@
+* {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+header, footer {
+    background-color: #1F2937;
+    padding: 1% 15% 1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero, #information, #quote, #call-to-action, header {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding: 1% 15% 5% 15%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+p {
+   font-size: 18px;
+   color: #E5E7EB;
+   line-height: 1.2;
+   margin-bottom: 12px;
+   margin-top: 12px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+#hero {
+    background-color: #1F2937;
+    display: flex;
+    gap: 10px;
+}
+
+#hero-content-1 {
+    padding: 0 10px 0 0;
+    flex: 0.9;
+    justify-content: space-between;
+    
+}
+
+#hero-content-2 {
+    padding: 0 0 0 0;
+    flex: 1;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 35px 10px 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.row-of-4 {
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.information img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+.information p {
+    color: black;
+}
+
+.column {
+    text-align: center;
+    width: 170px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    padding: 5% 30% 5% 30%;
+}
+
+#quote h4 {
+    align-self: flex-end;
+    color: #1F2937;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 5% 13% 5% 13%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+#call-to-action h4 {
+    color: white;
+}
+
+#call-to-action button {
+    border: 3px solid #F9FAF8;  
+}
+
+footer {
+    justify-content: space-around;
+}
+
+
+
+
